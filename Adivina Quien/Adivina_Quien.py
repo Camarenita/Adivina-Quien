@@ -109,4 +109,5 @@ def Inicio():
         quest = input('Ingrese una pregunta caracteristica para identificar al personaje: ')
         group = input('Ingrese al grupo al que pertenece: ')
         Characters.add(name, quest, group)
+    input()
 Inicio()
